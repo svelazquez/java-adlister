@@ -7,8 +7,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%--INCLUDE DIRECTIVE: Include other files/jsps. Used for templating--%>
-<%--pretend there's an include directive here...--%>
-
+<%@ include file="partials/navbar.jsp"%>
 <html>
 <head>
     <title><%= "some title" %></title>

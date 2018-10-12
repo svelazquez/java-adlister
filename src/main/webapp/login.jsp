@@ -20,6 +20,9 @@
 <html>
 <head>
     <title>Login</title>
+    <jsp:include page="partials/head.jsp">
+        <jsp:param name="title" value="Login"></jsp:param>
+    </jsp:include>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
