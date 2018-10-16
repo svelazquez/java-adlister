@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListAdsDao implements Ads {
-    private List<Ad> ads;z
+    private List<Ad> ads;
 
     public List<Ad> all() {
         if (ads == null) {

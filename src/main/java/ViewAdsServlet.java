@@ -13,7 +13,8 @@ import java.util.List;
 
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
             List<Ad> ads = DaoFactory.getAdsDao().all();
-            request.setAttribute();
+            request.setAttribute("ads", ads);
+
         }
 
     }
